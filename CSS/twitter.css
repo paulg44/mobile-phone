@@ -1,0 +1,79 @@
+/* Twitter */
+.twitter-wrapper {
+  background: #fff;
+  color: #444;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-twitter {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.twitter-header {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #ddd;
+  width: 90%;
+}
+
+.twitter-header p {
+  font-size: 12px;
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.twitter-profile-pic {
+  background: url('https://randomuser.me/api/portraits/men/3.jpg') no-repeat
+    center center/cover;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.twitter-followers {
+  display: flex;
+  font-size: 12px;
+  color: #666;
+}
+
+.twitter-followers span {
+  color: #222;
+}
+
+.twitter-followers p {
+  padding-right: 10px;
+}
+
+.twitter-lists {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.twitter-lists ul li {
+  padding: 8px 0;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+}
+
+.twitter-lists ul i {
+  margin-right: 20px;
+}
+
+.twitter-lists ul li:nth-child(2) {
+  color: var(--twitter-color);
+}
+
+.twitter-bottom {
+  font-size: 12px;
+  margin-bottom: 15px;
+  border-top: 1px solid #ddd;
+  width: 90%;
+}
+
+.twitter-bottom p {
+  padding: 12px 0 0;
+  font-weight: bold;
+}
