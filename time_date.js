@@ -16,3 +16,17 @@ function checkTime(i) {
   return i;
 }
 
+function date() {
+  const todaysDate = new Date()
+
+  const weekday = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+
+  let day = weekday[todaysDate.getDay()]
+  let monthName = todaysDate.toLocaleDateString('default', {month: 'short'})
+  let date = todaysDate.getDate()
+  
+
+  document.getElementById('date').innerHTML = `${day}, ${monthName} ${date}`
+}
+
+date()
