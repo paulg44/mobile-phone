@@ -16,4 +16,3 @@ function checkTime(i) {
   return i;
 }
 
-// Weather API
