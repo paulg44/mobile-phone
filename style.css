@@ -145,12 +145,17 @@ li {
   padding-bottom: 3px;
 }
 
-.weather i {
+.weather {
   display: flex;
-  font-size: 12px;
+  align-items: center;
+}
+
+.weather-icon {
+  height: 20px;
 }
 
 .weather p {
+  font-size: 10px;
   opacity: 0.9;
   padding-left: 4px;
 }
