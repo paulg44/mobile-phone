@@ -1,12 +1,14 @@
-<<<<<<< HEAD
-=======
 
->>>>>>> 653d6c744f8cf0afbb4aa7a4cb45ee08b88edb1d
 # A re-creation of my own mobile phone
+
+# UPDATE 23/07/2023
+Whilst working on this project recently I realise how much easier it would have been now I know React(at the start of the project I had no idea). However unlike other projects I have refactored to React, I will leave this one in vanilla. It's a good oportunity for me to practice vanilla HTML & CSS, and, because I'm now adding functionality where possible, vanilla JavaScript.
+
+# Description
 
 This is an ongoing project I am constantly adding to
 
-I started this project whilst working away in London painting & decorating. It gave me something to recreate just using my laptop.....and it's turned into so much more. I will use this project to showcase my skills in CSS and sokme functionality using Javascript and API's.
+I started this project whilst working away in London painting & decorating. It gave me something to recreate just using my laptop.....and it's turned into so much more. I will use this project to showcase my skills in CSS and some functionality using Javascript and API's.
 
 # CSS
 

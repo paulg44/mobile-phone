@@ -78,8 +78,26 @@
   font-weight: bold;
 }
 
+/* Darkmode button */
+.darkmode-btn {
+  background-color: transparent;
+  border: none;
+} 
+
 /* Dark mode class */
 .dark-mode {
   background-color: #444;
   color: #fff;
+
+  .twitter-followers span {
+    color: #fff;
+  }
+
+  .twitter-header p {
+    color: #999;
+  }
+
+  .darkmode-btn {
+    color: #fff;
+  }
 }
