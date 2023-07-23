@@ -15,13 +15,18 @@
     <title>Mobile Phone</title>
   </head>
   <main class="discord-mobile">
-    <div class="outer-mobile-phone-wrapper">
+    <!-- Outer mobile shape of phone -->
+    <section class="outer-mobile-phone-wrapper">
+      <!-- Gives the phone a slight refelction/shine -->
       <div class="top-shine"></div>
+      <!-- Buttons container on right side(if looking) of phone -->
       <div class="button-wrapper">
         <div class="on-button"></div>
         <div class="volume-button"></div>
       </div>
-      <div class="inner-mobile-phone-wrapper discord-wrapper">
+
+      <!-- Inner phone container -->
+      <section class="inner-mobile-phone-wrapper discord-wrapper">
         <div class="top">
           <div id="clock" class="clock"></div>
           <div class="camera transform-left"></div>
@@ -32,8 +37,8 @@
           </div>
         </div>
 
-        <!-- Discord Content -->
-        <div class="discord-left-side-links">
+        <!-- Discord left sided content -->
+        <section class="discord-left-side-links">
           <ul>
             <li
               style="
@@ -73,20 +78,27 @@
               "
             ></li>
           </ul>
-        </div>
+        </section>
         <div class="discord-green-icons">
           <ul>
             <li><i class="fa-solid fa-plus"></i></li>
             <li><i class="fa-solid fa-sitemap"></i></li>
           </ul>
         </div>
-        <div class="discord-content-middle transform-left">
+
+        <!-- Discord middle content -->
+        <section class="discord-content-middle transform-left">
+          <!-- Header content -->
           <div class="discord-content-header">
             <i class="fa-solid fa-compass"></i>
             <h5>The Cow Watch</h5>
             <p>...</p>
           </div>
+
+          <!-- Invite btn -->
           <button><i class="fa-solid .fa-user-plus"></i>Invite</button>
+
+          <!-- Middle list text -->
           <div class="discord-middle-text">
             <h5><i class="fa-solid fa-house"></i> Home</h5>
             <div class="discord-info">
@@ -111,9 +123,13 @@
               <h6>PROJECTS</h6>
             </div>
           </div>
-        </div>
-        <div class="discord-right-side">
+        </section>
+
+        <!-- Discord right side content -->
+        <section class="discord-right-side">
+          <!-- Hamburger menu -->
           <i class="fa-solid fa-bars discord-burger"></i>
+          <!-- Users -->
           <div class="discord-users">
             <div
               class="discord-user"
@@ -144,8 +160,10 @@
               "
             ></div>
           </div>
-        </div>
-        <div class="discord-bottom-links">
+        </section>
+
+        <!-- Discord bottom icons/links -->
+        <section class="discord-bottom-links">
           <ul>
             <li><i class="fa-brands fa-discord"></i></li>
             <li><i class="fa-solid fa-user"></i></li>
@@ -160,11 +178,12 @@
               ></p>
             </li>
           </ul>
-        </div>
+        </section>
 
+        <!-- Home btn -->
         <a href="./index.html" class="bottom-button transform-left"></a>
-      </div>
-    </div>
+      </section>
+    </section>
 
     <script src="./script.js"></script>
   </main>

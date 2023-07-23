@@ -15,13 +15,18 @@
     <title>Mobile Phone</title>
   </head>
   <body>
+    <!-- Outer mobile shape of phone -->
     <main class="outer-mobile-phone-wrapper">
+      <!-- Gives the phone a slight refelction/shine -->
       <div class="top-shine"></div>
+      <!-- Buttons container on right side(if looking) of phone -->
       <div class="button-wrapper">
         <div class="on-button"></div>
         <div class="volume-button"></div>
       </div>
-      <div class="google-wrapper">
+
+      <!-- Inner phone container -->
+      <section class="google-wrapper">
         <div class="top">
           <div id="clock" class="clock"></div>
           <div class="camera transform-left"></div>
@@ -32,6 +37,7 @@
           </div>
         </div>
 
+        <!-- Search Bar -->
         <a
           href="/google_search.html"
           target="_blank"
@@ -47,8 +53,9 @@
           </div>
         </a>
 
+        <!-- Home Button -->
         <a href="./index.html" class="bottom-button transform-left"></a>
-      </div>
+      </section>
     </main>
 
     <script src="./script.js"></script>

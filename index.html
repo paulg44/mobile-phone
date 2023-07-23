@@ -14,34 +14,48 @@
     <title>Mobile Phone</title>
   </head>
   <body>
+    <!-- Outer mobile shape of phone -->
     <main class="outer-mobile-phone-wrapper">
+      <!-- Gives the phone a slight refelction/shine -->
       <div class="top-shine"></div>
+      <!-- Buttons container on right side(if looking) of phone -->
       <div class="button-wrapper">
         <a class="on-button" href="./lock_screen.html"></a>
         <div class="volume-button"></div>
       </div>
-      <div class="inner-mobile-phone-wrapper">
+
+      <!-- Inner phone container -->
+      <section class="inner-mobile-phone-wrapper">
         <div class="top">
+          <!-- Time -->
           <div id="clock" class="clock"></div>
+          <!-- Camera -->
           <div class="camera transform-left"></div>
+          <!-- Signal, Battery etc -->
           <div class="top-left">
             <i class="fa-solid fa-signal"></i>
             <i class="fa-solid fa-battery-three-quarters"></i>
             <p>76%</p>
           </div>
         </div>
+
+        <!-- Date and wether container, using live API -->
         <div class="date-weather-content">
           <div id="date" class="date"></div>
           <div id="weather" class="weather">
             <img id="weather-icon" class="weather-icon" alt="weather image"></img> <p id="temp"></p>
           </div>
         </div>
+
+        <!-- Bottom of the page app links -->
         <div class="app-links transform-left">
           <a class="links discord" href="./discord_test.html"></a>
           <a class="links twitter" href="./twitter.html"></a>
           <a class="links whatsapp" href="./whatsapp.html"></a>
           <a class="links linkedin" href="./linkedin.html"></a>
         </div>
+
+        <!-- Google search bar -->
         <a href="/google_search.html" class="google-bar transform-left">
           <div class="google-logo">
             <i class="fa-brands fa-google"></i>
@@ -51,8 +65,10 @@
             <i class="fa-solid fa-camera"></i>
           </div>
         </a>
+
+        <!-- Home Button -->
         <a href="./index.html" class="bottom-button transform-left"></a>
-      </div>
+      </section>
     </main>
 
     <script src="./time_date.js"></script>
