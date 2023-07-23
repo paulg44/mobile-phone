@@ -77,3 +77,9 @@
   padding: 12px 0 0;
   font-weight: bold;
 }
+
+/* Dark mode class */
+.dark-mode {
+  background-color: #444;
+  color: #fff;
+}
