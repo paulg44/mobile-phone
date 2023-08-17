@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./fontawesome-free-6.1.1-web/css/all.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="/CSS/linkedin.css" />
+
+    <title>Mobile Phone</title>
+  </head>
+  <body class="linkedin-mobile">
+    <!-- Outer mobile shape of phone -->
+    <main class="outer-mobile-phone-wrapper">
+      <!-- Gives the phone a slight refelction/shine -->
+      <div class="top-shine"></div>
+      <!-- Buttons container on right side(if looking) of phone -->
+      <div class="button-wrapper">
+        <a class="on-button" href="./lock_screen.html"></a>
+        <div class="volume-button"></div>
+      </div>
+
+      <!-- Inner phone container -->
+      <section class="inner-mobile-phone-wrapper linkedIn-wrapper">
+        <div class="top">
+          <!-- Time -->
+          <div id="clock" class="clock"></div>
+          <!-- Camera -->
+          <div class="camera transform-left"></div>
+          <!-- Signal, Battery etc -->
+          <div class="top-left">
+            <i class="fa-solid fa-signal"></i>
+            <i class="fa-solid fa-battery-three-quarters"></i>
+            <!-- Make the battery charge a random % -->
+            <p id="random-percentage"></p>
+          </div>
+        </div>
+
+        <!-- LinkedIn section -->
+
+        <!-- Home Button -->
+        <a href="./index.html" class="bottom-button transform-left"></a>
+      </section>
+    </main>
+
+    <script src="./time_date.js"></script>
+    <script src="./random_percentage.js"></script>
+  </body>
+</html>

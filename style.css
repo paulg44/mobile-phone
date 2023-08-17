@@ -34,6 +34,10 @@ body.whatsapp-mobile {
   background: radial-gradient(#fff, var(--whatsapp-color));
 }
 
+body.linkedin-mobile {
+  background: linear-gradient(#fff, var(--linkedin-color));
+}
+
 /* Utilities */
 
 a {
